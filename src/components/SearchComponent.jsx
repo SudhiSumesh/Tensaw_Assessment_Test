@@ -31,7 +31,7 @@ const SearchComponent = ({
                 required
                 className="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-black border-gray-200"
               />
-              <span className="text-sm text-red-600">{errors.clinic}</span>
+           
             </div>
             <div className="relative z-0 w-full mb-5">
               <label htmlFor="city" className="hidden">
@@ -44,7 +44,7 @@ const SearchComponent = ({
                 placeholder="City"
                 className="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-black border-gray-200"
               />
-              <span className="text-sm text-red-600">{errors.city}</span>
+           
             </div>
             <div className="relative z-0 w-full mb-5">
               <label htmlFor="zip" className="hidden">
@@ -57,7 +57,7 @@ const SearchComponent = ({
                 placeholder="Zip"
                 className="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-black border-gray-200"
               />
-              <span className="text-sm text-red-600">{errors.zip}</span>
+            
             </div>
             <button
               type="button"

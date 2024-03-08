@@ -1,8 +1,35 @@
-# React + Vite
+# TensawAssessment 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React Project with Vite
 
-Currently, two official plugins are available:
+This is a React project created using Vite build tool.
+Vite template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Styling
+This project uses `tailwind css` for style the UI
+ 
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+- `Node.js` installed on your local machine
+
+### Installation
+
+1. Clone the repo
+2. cd Tensaw_Assessment
+3. npm install -to install all the necessary packages form (package.json) to run the project
+4. npm run dev -to run the project
+5. Open http://localhost:5173 to view it in the browser.
+
+### Dependencies
+
+* tailwind css
+* react-router-dom
+* fontawesome-icon
+
+
+
+
