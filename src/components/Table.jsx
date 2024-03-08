@@ -11,7 +11,7 @@ export default function Table({ data }) {
     navigate("/profile-details", { state: { details: rowData } });
   };
   return (
-    <div className="relative ms-1   no-scrollbar overflow-auto md:shadow-md  md:mt-[3rem] ">
+                    <div className="relative ms-1   no-scrollbar overflow-x-scroll min-h-[100vh] md:min-h-0 md:overflow-auto md:shadow-md  md:mt-[3rem] ">
       <table className="w-full  text-sm text-left  text-gray-500">
         <thead className="text-xs  text-[#2c2a2a] uppercase sticky top-0 bg-[#ebe8e8] ">
           <tr>
